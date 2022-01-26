@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capslock | Red Blood Beanie</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <header>
+        <a href="../homepage/home.html" ><h1 style = "font-size: 50px; color: white; ">Capslock.</h1></a>
+
+        <nav>
+			<ul class="menu">
+				<li><a href="../cataloguepage/c.html">CATALOGUE</a></li>
+                <li><a href="../contactpage/con.html">TALK TO US</a></li>
+				<li><a href="#">ABOUT CAPSLOCK</a></li>
+				<a href="../orderpage/o.html" class="heicons"><img src="bag.png" width="20" style="width: 20"></a>
+                <a class="heicons"><img src="magnifier.png" width="20" style="width: 20"></a>
+                <img src="../moon.png" id="icon">
+			</ul>
+        </nav>
+    </header>
+    
+    <section class="cop">
+        <div class="pic">
+            <img src="red-hat-factory-o06gtPVfuDs-unsplash.jpg" alt="">
+        </div>
+        <div class="dex">
+            <h2 style="font-size: 12px; color: rgb(145, 137, 137); text-align: left;">CAPSLOCK / BEANIES / BLOOD RED BEANIE</h2>
+
+            <h1 style="font-size: 40px;">Blood Red Beanie</h1>
+            <h1>₦5000</h1>
+            <h2 style="font-size: 15px; margin-bottom: 10px; color: black; text-align: left;">Color: Red</h1>
+            <h2  style="font-size: 15px;color: black; text-align: left; margin-bottom: 50px;">Variant: Beanie hat</h1>
+            
+
+                <h2 style="color: black; text-align: left; font-size: 15px;">Size</h2>
+                <div class="dropdown">
+                    <button>select preference</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li>M</li>
+                        <li>L</li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+            
+
+            <h2 style="color: black; text-align: left; font-size: 15px; margin-top: 65px;">Currency</h2>
+            <div class="dropdown">
+                <button>NGN</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li>USD</li>
+                        <li>GHC</li>
+                        <li>ZAR</li>
+                    </ul>
+                    
+                </div>
+    
+            </div>
+
+            <button class="add">ADD TO CART</button>
+
+            <div class="more">
+                <h1 class="morep">Additional information</h1>
+                <p style="color:rgb(112, 126, 126); font-size: 13px; margin-top: 10px; line-height: 25px;">The southlander is a nigerian brand originating from Lagos. Founded by two entreprenuers who 
+                    happen to be brothers, 
+                they have a goal to bring stylish and trendy pieces to the masses by making attractive pieces affordable </p>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <script>
+        var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "../sun.png";
+    } else{
+        icon.src = "../moon.png"
+    }
+}
+    </script>
+
+    <footer>
+
+        <ul class="icons">
+            <li><img src="facebook.png" width="25" style="width: 25px;"></li>
+            <li><img src="instagram.png" width="25" style="width: 25px;"></li>
+            <li><img src="twitter.png" width="25" style="width: 25px;"></li>
+            <li><img src="whatsapp.png" width="25" style="width: 25px;"></li>
+        </ul>
+
+        <ul>
+            <li><a href="../contactpage/con.html">Get in touch</a></li>
+            <li><a href="../contactpage/con.html">Sizes</a></li>
+            <li><a href="../contactpage/con.html">Delivery</a></li>
+            <li><a href="../contactpage/con.html">Returns</a></li>
+            <li><a href="../contactpage/con.html">FAQs</a></li>
+            <li><a href="../contactpage/con.html">Ts & Cs</a></li>
+            <li><a href="../contactpage/con.html">Exchange Policy</a></li>
+
+        </ul>
+
+        <h1> © Copyright 2022 | All rights reserved | Site by Capslock. Group</h1>
+    </footer>
+</body>
+</html>

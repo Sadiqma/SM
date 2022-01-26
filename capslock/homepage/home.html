@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capslock</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="../group.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" ><h1 style = "font-size: 50px; color: white; ">Capslock.</h1></a>
+
+        <nav>
+			<ul class="menu">
+				<li><a href="../cataloguepage/c.html">CATALOGUE</a></li>
+                <li><a href="../contactpage/con.html">TALK TO US</a></li>
+				<li><a href="#">ABOUT CAPSLOCK</a></li>
+				<a href="../orderpage/o.html" class="heicons"><img src="bag.png" width="20" style="width: 20"></a>
+                <a class="heicons"><img src="magnifier.png" width="20" style="width: 20"></a>
+                <img src="../moon.png" id="icon">
+			</ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <article>
+                <h2>Welcome to capslock.</h1>
+                <h1>The no1 spot for everything caps</h2>
+            </article>
+
+            <a href="../cataloguepage/c.html"/><button type="button">Browse Collections</button></a>
+            
+        </section>
+
+        <section class= "pics">
+            <div class="pictures">
+            <img src="richard-gazon-lIRJBv2wI60-unsplash.jpg" alt="">
+            <img src="charles-deluvio-GsKf0FXVj3Y-unsplash.jpg" alt="">
+            </div>
+        
+        </section>
+
+        <div class="contact">
+            <h1>JOIN THE COMMUNITY</h1>
+            <h2>Join our community for access to new drops, awesome discounts and style tips</h2>
+            <input type="email" name="" id="" placeholder=" sadiqmuhammed@caps.lock">
+            <button>SUBSCRIBE</button>
+        </div>
+
+        <section class= "news">
+            <h1>LATEST NEWS</h1>
+
+            <ul>
+                <li><a href="#">All</a></li>
+				<li><a href="#">Spotlight</a></li>
+				<li><a href="#">Locations</li>
+				<li><a href="#">Designers</a></li>
+                <li><a href="#">New & Trending</a></li>
+            </ul>
+
+            <div class="newsshow">
+                <div>
+                    <img src="oladimeji-odunsi-lNm2Px2UYB4-unsplash.jpg" alt="">
+                    <p> Lorem ipsum dolor sit, amet 
+                        consectetur adipisicing elit. 
+                        Eligendi iste explicabo veniam rem ipsum, 
+                        repellat eum quibusdam vel itaque eos saepe consectetur. 
+                        Molestias molestiae vel laudantium iure deleniti ad esse.</p>
+                </div>
+
+                <div>
+                    <img src="red-hat-factory-o06gtPVfuDs-unsplash.jpg" alt="">
+                    <p>Lorem ipsum dolor sit, amet 
+                        consectetur adipisicing elit. 
+                        Eligendi iste explicabo veniam rem ipsum, 
+                        repellat eum quibusdam vel itaque eos saepe consectetur. 
+                        Molestias molestiae vel laudantium iure deleniti ad esse.</p>
+                </div>
+
+                <div>
+                    <img src="richard-gazon-lIRJBv2wI60-unsplash.jpg" alt="">
+                    <p> Lorem ipsum dolor sit, amet 
+                        consectetur adipisicing elit. 
+                        Eligendi iste explicabo veniam rem ipsum, 
+                        repellat eum quibusdam vel itaque eos saepe consectetur. 
+                        Molestias molestiae vel laudantium iure deleniti ad esse.</p>
+                </div>
+
+                <div>
+                    <img src="charles-deluvio-GsKf0FXVj3Y-unsplash.jpg" alt="">
+                    <p>Lorem ipsum dolor sit, amet 
+                        consectetur adipisicing elit. 
+                        Eligendi iste explicabo veniam rem ipsum, 
+                        repellat eum quibusdam vel itaque eos saepe consectetur. 
+                        Molestias molestiae vel laudantium iure deleniti ad esse.</p>
+                </div>
+
+            </div>
+
+            <button>EXPLORE</button>
+
+        </section>
+
+    </main>
+
+    <script>
+        var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "../sun.png";
+    } else{
+        icon.src = "../moon.png"
+    }
+}
+    </script>
+
+    <footer>
+
+        <ul class="icons">
+            <li><img src="facebook.png" width="25" style="width: 25px;"></li>
+            <li><img src="instagram.png" width="25" style="width: 25px;"></li>
+            <li><img src="twitter.png" width="25" style="width: 25px;"></li>
+            <li><img src="whatsapp.png" width="25" style="width: 25px;"></li>
+        </ul>
+
+        <ul>
+            <li><a href="../contactpage/con.html">Get in touch</a></li>
+            <li><a href="../contactpage/con.html">Sizes</a></li>
+            <li><a href="../contactpage/con.html">Delivery</a></li>
+            <li><a href="../contactpage/con.html">Returns</a></li>
+            <li><a href="../contactpage/con.html">FAQs</a></li>
+            <li><a href="../contactpage/con.html">Ts & Cs</a></li>
+            <li><a href="../contactpage/con.html">Exchange Policy</a></li>
+
+        </ul>
+
+        <h1> © Copyright 2022 | All rights reserved | Site by Capslock. Group</h1>
+    </footer>
+</body>
+</html>

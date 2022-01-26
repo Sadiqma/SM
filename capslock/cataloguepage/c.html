@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capslock | Items</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="c.css">
+
+</head>
+<body>
+    <header>
+        <a href="../homepage/home.html" ><h1 style = "font-size: 50px; color: white; ">Capslock.</h1></a>
+
+        <nav>
+			<ul class="menu">
+				<li><a href="../cataloguepage/c.html">CATALOGUE</a></li>
+                <li><a href="../contactpage/con.html">TALK TO US</a></li>
+				<li><a href="#">ABOUT CAPSLOCK</a></li>
+                <img src="../moon.png" id="icon">
+			</ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1 style="color: white">Shop all styles now</h1>
+        </section>
+
+        <section class="hatmenu">
+            <ul>
+                <li><a href="#">All</a></li>
+				<li><a href="#">Baseball</a></li>
+				<li><a href="#">Snapback</a></li>
+				<li><a href="#">Beanies</a></li>
+				<li><a href="#">Durags</a></li>
+                <li><a href="#">Cloche</a></li>
+                <li><a href="#">Scarves</a></li>
+			</ul>
+        </section>
+
+        <h1 class="anno">New and Selling out</h1>
+
+        <section class="choice">
+            <div>
+                <a href="../paymentpage/p.html"><img src="red-hat-factory-o06gtPVfuDs-unsplash.jpg" alt=""></a>
+                <h1>Blood Red Beanie</h1>
+                <h2>₦5000</h2>
+            </div>
+
+            <div>
+                <img src="dolapo-ayoade-NhWW_RW1qO0-unsplash.jpg" alt="">
+                <h1>"Ogbeni Farabale"</h1>
+                <h2>₦5000</h2>
+            </div>
+
+            <div>
+                <img src="charles-deluvio-GsKf0FXVj3Y-unsplash.jpg" alt="">
+                <h1>Orange Skies Beanie</h1>
+                <h2>₦5000</h2>
+            </div>
+
+            <div>
+                <img src="richard-gazon-lIRJBv2wI60-unsplash.jpg" alt="">
+                <h1>Blackout Baseball</h1>
+                <h2>₦5000</h2>
+            </div>
+
+            <div>
+                <img src="./imgs/235759998_1236848193431703_5642028051806629195_n.jpg" alt="">
+                <h1>Capslock Line</h1>
+                <h2>₦5000</h2>
+            </div>
+        </section>
+
+        <h1 class="anno">All Products</h1>
+
+        <section class="products">
+            <div id="caps" style="background-image: url(severin-hoin-oXVCgaDqX30-unsplash.jpg); background-size: cover;">
+                <h1>New in Caps</h1>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div id="beanies" style="background-image: url(red-hat-factory-o06gtPVfuDs-unsplash.jpg); background-size: cover;">
+                <h1>New in beanies</h1>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div id="durags" style="background-image: url(durag.jpeg); background-size: cover;">
+                <h1>New in durags</h1>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div id="scarves" style="background-image: url(courtney-smith-l2NryXUJFaY-unsplash.jpg); background-size: cover;">
+                <h1>New in scarves</h1>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div id="fedora" style="background-image:url(chris-curry-BOiIZchGTAY-unsplash.jpg); background-size: cover;">
+                <h1>New in Fedoras</h1>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div id="trucker" style="background-image: url(quaid-lagan-LHGZSCpvawQ-unsplash.jpg); background-size: cover;">
+                <h1>New in truckers</h1>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div id="merch" style="background-image: url(./imgs/212542897_360906252058811_2512047504912846372_n\(1\).jpg); background-size: cover;">
+                <h1>New in merch</h1>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div id="hoodie" style="background-image: url(./imgs/159318442_257112819223210_6038230038547816867_n.jpg); background-size: cover;">
+                <h1>New in hoodies</h1>
+                <button>SHOP NOW</button>
+            </div>
+        </section>
+
+        <h1 class="anno">ASSOCIATED BRANDS</h1>
+        <section class="asso">
+            <h1>NIKE</h1>
+            <h1>ADIDAS</h1>
+            <h1>GARM ISLAND</h1>
+            <h1>PUMA</h1>
+            <h1>RECKLESS</h1>
+            <h1>THE NORTH FACE</h1>
+        </section>
+    </main>
+
+    <script>
+        var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "../sun.png";
+    } else{
+        icon.src = "../moon.png"
+    }
+}
+    </script>
+
+    <footer>
+
+        <ul class="icons">
+            <li><img src="facebook.png" width="25" style="width: 25px;"></li>
+            <li><img src="instagram.png" width="25" style="width: 25px;"></li>
+            <li><img src="twitter.png" width="25" style="width: 25px;"></li>
+            <li><img src="whatsapp.png" width="25" style="width: 25px;"></li>
+        </ul>
+
+        <ul>
+            <li><a href="../contactpage/con.html">Get in touch</a></li>
+            <li><a href="../contactpage/con.html">Sizes</a></li>
+            <li><a href="../contactpage/con.html">Delivery</a></li>
+            <li><a href="../contactpage/con.html">Returns</a></li>
+            <li><a href="../contactpage/con.html">FAQs</a></li>
+            <li><a href="../contactpage/con.html">Ts & Cs</a></li>
+            <li><a href="../contactpage/con.html">Exchange Policy</a></li>
+
+        </ul>
+
+        <h1> © Copyright 2022 | All rights reserved | Site by Capslock. Group</h1>
+    </footer>
+
+    
+    
+</body>
+</html>

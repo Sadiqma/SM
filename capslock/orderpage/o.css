@@ -1,0 +1,75 @@
+@import url("../homepage/home.css");
+
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+main{
+    background-color: var(--primary-color);
+}
+
+.dark-theme{
+    --primary-color: black;
+    --secondary-color: white;
+}
+
+.heicons{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bag > h1{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--secondary-color);
+
+}
+
+.bag > h2{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-top: 15px;
+    color: var(--secondary-color);
+}
+
+.bag > img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+    background-color: rgb(16, 179, 16);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.bag > button{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+    font-family: montserrat;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+.bag > button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    text-decoration: solid;
+    
+}
